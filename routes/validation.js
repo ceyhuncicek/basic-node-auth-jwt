@@ -1,5 +1,5 @@
 //VALIDATION
-const Joi = require("@hapi/joi");
+const Joi = require("joi");
 
 //Register validation
 const registerValidation = (data) => {
@@ -12,7 +12,7 @@ const registerValidation = (data) => {
   return schema.validate(data);
 };
 
-//Register validation
+//Login validation
 const loginValidation = (data) => {
   const schema = Joi.object({
     email: Joi.string().min(6).required().email(),
