@@ -23,6 +23,7 @@ or provide a link from mongo atlas.
 ```
 DB_CONNECT = mongodb://127.0.0.1:27017/users_db
 TOKEN_SECRET = veryverysecretsomerandomlettersandnumbers
+PORT = 5000
 ```
 4. That's all! Now Start the project.
 
@@ -52,4 +53,4 @@ When you login you will get a jwt token. You can use this token in your header i
 - [express](https://www.npmjs.com/package/express) - Web framework
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - Tokens
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs) - Crypt passwords
-- [@hapi/joi](https://www.npmjs.com/package/@hapi/joi) - for form validation it is depreciated so i will change it later to [Joi](https://joi.dev/api/?v=17.2.1)
+- [joi](https://www.npmjs.com/package/joi) - for form validation
