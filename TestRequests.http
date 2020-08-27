@@ -2,12 +2,8 @@
 # GET /api/posts/ HTTP/1.1
 # Host: localhost:5000
 # content-type: application/json,
-# auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjQ2NTE1MjdkNzQ0NzE1NjdjZmU1NTMiLCJpYXQiOjE1OTg0NDM4Nzd9.fj614PRptXfjegPCli57-hvyaXto6u-EXefHOeEEbTo
+# auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjQ2NTE1MjdkNzQ0NzE1NjdjZmU1NTMiLCJpYXQiOjE1OTg1MzU1Njl9.N-1yIkgoETzLXKgYRd62F0hNGDFU3zte_nWN58RFHAY
 
-# {
-#     "email": "g12ooadu1231de@gmail.com",
-#     "password": "1234567",
-# }
 
 # POST /api/user/login HTTP/1.1
 # Host: localhost:5000
