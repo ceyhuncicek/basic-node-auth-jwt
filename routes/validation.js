@@ -22,5 +22,5 @@ const loginValidation = (data) => {
   return schema.validate(data);
 };
 
-.registerValidation = registerValidation;
+module.exports.registerValidation = registerValidation;
 module.exports.loginValidation = loginValidation;
